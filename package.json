@@ -1,0 +1,33 @@
+{
+  "name": "JsonFilterServer",
+  "version": "1.0.0",
+  "description": "A simple JSON data filter server",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^2.3.0",
+    "chai-json-schema": "^1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jerryxguo/JsonFilterServer"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Xiaotian Guo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jerryxguo/JsonFilterServer/issues"
+  },
+  "homepage": "https://github.com/jerryxguo/JsonFilterServer"
+}
